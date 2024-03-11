@@ -8,7 +8,7 @@ load_dotenv()
 
 # Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "")l
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "")
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SweetToxicDevil/SWEET_TOXIC_MUSIC_BOT",
+    "https://github.com/ankitkhandal74/The-Gojo-Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "SIGMA")
 GIT_TOKEN = getenv(
